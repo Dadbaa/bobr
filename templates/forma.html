@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+   <h1 style="text-align: center">ВВЕДИ  ИМЯ, {{ name }}</h1>
+<body>
+  
+    <form method="post" action="/forma">
+      <label for="strng"></label>
+      <input type="text" name="strng" id="strng">
+      <input type="submit" value="Set Cookie">
+    </form>
+  </body>
+
+{% endblock %}
